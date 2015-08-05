@@ -53,6 +53,86 @@ input[type="checkbox"].input-validation-error {
     width: 168px;
     height: 841px;
 }
+.folderheadModal{
+    width: 1152px;
+    height: 92px;
+    background-image:url("~/Images/folder_head.png");
+}
+
+
+
 .verticalLine{
     border-right: thin solid #808080;
 }
+.vertical_nav {
+    -moz-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.vertical_nav {
+    position: absolute;
+    left: -200px;
+    top: 50px;
+    bottom: 0;
+    width: 200px;
+    background: #f6f6f6;
+}
+.vertical_nav__closed {
+    left: -200px !important;
+}
+.vertical_nav__opened {
+    left: 0 !important;
+    box-shadow: rgba(0,0,0,.4)-30px 0 30px 30px;
+}
+@media (min-width:992px) {
+    .vertical_nav {
+        left: 0;
+    }
+
+    .toggle_menu {
+        display: none;
+    }
+
+    .vertical_nav__minify {
+        width: 50px;
+    }
+
+        .vertical_nav__minify .menu {
+            overflow: visible;
+        }
+
+        .vertical_nav__minify .menu--label {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 50px;
+            width: 150px;
+            padding-left: 16px;
+            padding-right: 16px;
+            background: #e9e9e9;
+            font-weight: 500;
+        }
+
+        .vertical_nav__minify .menu--item__has_sub_menu .menu--link:after {
+            content: "";
+        }
+
+        .vertical_nav__minify .menu--subitens__opened .menu--label, .vertical_nav__minify .menu--subitens__opened .sub_menu {
+            display: block;
+        }
+
+        .vertical_nav__minify .sub_menu {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            width: 150px;
+            background: #e9e9e9;
+        }
+
+        .vertical_nav__minify .sub_menu--link {
+            padding-left: 16px;
+        }
+
+        .vertical_nav__minify .collapse_menu--icon {
+            -webkit-transform: rotate(180deg);
+        }
