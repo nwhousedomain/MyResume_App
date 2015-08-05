@@ -40,3 +40,19 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+.summaryModal{
+    width: 600px;
+    height: 600px;
+    background-color:#ffffff;
+}
+.folderModal{
+    width: 1152px;
+    background-color: rgb(255, 255, 255);
+}
+.folderSideModal{
+    width: 168px;
+    height: 841px;
+}
+.verticalLine{
+    border-right: thin solid #808080;
+}

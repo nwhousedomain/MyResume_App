@@ -176,9 +176,14 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\Award.png" />
+    <Content Include="Images\document head.png" />
+    <Content Include="Images\documentfooter.png" />
     <Content Include="Images\downloadBtn.png" />
     <Content Include="Images\Education.png" />
     <Content Include="Images\Experience.png" />
+    <Content Include="Images\folder_footer.png" />
+    <Content Include="Images\folder_head.png" />
+    <Content Include="Images\folder_side.png" />
     <Content Include="Images\logo_start.png" />
     <Content Include="Images\me.jpg" />
     <Content Include="Images\me.png" />
