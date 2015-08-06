@@ -15,14 +15,19 @@ namespace resumeApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "My bio page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "my contact page.";
+
+            return View();
+        }
+        public ActionResult modal()
+        {
 
             return View();
         }
